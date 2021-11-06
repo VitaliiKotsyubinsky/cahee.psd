@@ -1,0 +1,122 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+li>a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #262626;
+    font-size: 12px;
+}
+
+.wrapper_first {
+    background-image: url(/img/bg1.png);
+    height: 1000px;
+}
+
+.content_size {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.header__logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: #262626;
+}
+
+.header {
+    max-height: 147px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 213px;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header__nav>ul {
+    font-size: 13px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 40px;
+}
+
+.main__heading {
+    color: #262626;
+    font-size: 50px;
+    font-family: 'Raleway heavy', sans-serif;
+}
+
+.main>p {
+    font-family: 'Raleway';
+    font-weight: 200;
+    color: #929293;
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 33px;
+}
+
+.main {
+    width: 370px;
+}
+
+.main__button {
+    text-decoration: none;
+    width: 200px;
+    height: 56px;
+    background-color: #ff6033;
+    color: #ffdcd6;
+    font-family: 'Raleway';
+    font-size: 18px;
+    padding: 20px 27px;
+    box-shadow: 7px 5px 13px 0px rgba(34, 60, 80, 0.27);
+}
+
+.main__button:active {
+    box-sizing: border-box;
+    border: solid 1px #ff6033;
+    background-color: #f9f8fb;
+    color: #ff6033;
+    transition: 0.1s;
+}
+
+li:hover {
+    border-top: #ff6033 solid 2px;
+}
+
+.wrapper_second {
+    background-image: url(img/bg2.png);
+    height: 700px;
+}
+
+.content_size__block {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+}
+
+.wrapper_second__sub-text>p {
+    color: #ffffff;
+    font-family: 'Raleway';
+    font-weight: 200;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.wrapper_second__sub-text>h1 {
+    margin: 0;
+    font-family: 'Raleway';
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 65px;
+}
