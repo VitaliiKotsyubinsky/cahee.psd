@@ -11,6 +11,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@200;400;600;700;900&display=swap"
         rel="stylesheet">
 
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"
+        integrity="sha512-0XDfGxFliYJPFrideYOoxdgNIvrwGTLnmK20xZbCAvPfLGQMzHUsaqZK8ZoH+luXGRxTrS46+Aq400nCnAT0/w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
 
     <title>Document</title>
 </head>
@@ -24,13 +29,13 @@
                         Cahee
                     </span>
                     <nav class="header__nav">
-                        <ul>
-                            <li><a href="#">HOME</a></li>
-                            <li><a href="#">ABOUT</a></li>
-                            <li><a href="#">SERVICES</a></li>
-                            <li><a href="#">GALLERY</a></li>
-                            <li><a href="#">BLOG</a></li>
-                            <li><a href="#">CONTACT</a></li>
+                        <ul class="header__nav">
+                            <li class="nav-manu"><a href="#">HOME</a></li>
+                            <li class="nav-manu"><a href="#">ABOUT</a></li>
+                            <li class="nav-manu"><a href="#">SERVICES</a></li>
+                            <li class="nav-manu"><a href="#">GALLERY</a></li>
+                            <li class="nav-manu"><a href="#">BLOG</a></li>
+                            <li class="nav-manu"><a href="#">CONTACT</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -69,6 +74,54 @@
             </div>
         </div>
     </div>
+    <div class="form_block">
+        <div class="form_block__contact-menu">
+            <h2>Contact</h2>
+            <p>
+                For new projects, ideas, business or anything
+                you'd like to discuss, contact with me!
+            </p>
+        </div>
+        <div class="maine-form">
+            <form action="javascript:">
+                <div class="form_block__form">
+                    <ul class="form_block__column-block">
+                        <li class="form_block__column-form">
+                            <input type="text" name="username" placeholder="username" class="column-form__input">
+                        </li>
+                        <li class="form_block__column-form">
+                            <input type="email" name="Your email..." placeholder="Your email..."
+                                class="column-form__input">
+                        </li>
+                        <li class="form_block__column-form">
+                            <input type="text" name="Your phone number..." placeholder="Your phone number..."
+                                data-mask="00-000-00000" class="column-form__input">
+                        </li>
+                        <li class="form_block__column-form">
+                            <textarea placeholder="Your name" id="Your_name" cols="30" rows="10"
+                                class="column-form__input"></textarea>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+            <div class="address">
+                <div class="address__user">
+                    <h5>ADDRESS</h5>
+                    <p>123 City name, Street, City, Country</p>
+                </div>
+                <div class="address__user">
+                    <h5>EMAIL</h5>
+                    <p>cahee@domain.com</p>
+                </div>
+                <div class="address__user">
+                    <h5>PHONE</h5>
+                    <p> +012 345 6789</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
 
 </body>
 
