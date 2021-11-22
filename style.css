@@ -406,17 +406,17 @@ textarea.column-form__input {
 }
 
 .blog__card--col01 {
-    background-image: url(/img/blog_bg01.png);
+    background-image: url(img/blog_bg01.png);
 
 }
 
 .blog__card--col02 {
-    background-image: url(/img/blog_bg02.png);
+    background-image: url(img/blog_bg02.png);
 
 }
 
 .blog__card--col03 {
-    background-image: url(/img/blog_bg03.png);
+    background-image: url(img/blog_bg03.png);
     opacity: 10;
 
 
